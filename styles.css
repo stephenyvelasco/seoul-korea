@@ -100,43 +100,23 @@ body{
 }
 
 @media (max-width: 768px) {
-  .hero-section,
-  .hero-attractions {
-    height: 300px;
-    background-position: center;
+  body {
+    padding: 0.5rem;
+    margin: 0;
   }
-  .hero-section h1,
-  .hero-attractions h1 {
-    font-size: 1.8rem;
+  .container,
+  .container-fluid {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
   }
-  .hero-section p,
-  .hero-attractions p {
-    font-size: 0.95rem;
+  section,
+  .row {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
   }
-  .row-cols-md-3 {
-    --bs-columns: 1 !important;
-  }
-  .card {
-    margin-bottom: 1rem;
-  }
-  .card img {
-    height: auto;
-  }
-  h3, h5 {
-    font-size: 1.2rem;
-  }
-  p, ul li {
-    font-size: 0.95rem;
-    line-height: 1.5;
-  }
-  footer {
-    text-align: center;
-  }
-  footer .d-flex {
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-  footer p.small {
-    font-size: 0.85rem;
+  p {
+    margin-bottom: 0.75rem;
   }
 }
